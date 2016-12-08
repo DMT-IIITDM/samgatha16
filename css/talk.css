@@ -1,0 +1,254 @@
+#talks{
+	
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+height:100%;
+background:linear-gradient(to bottom, #73C8A9,#373B44);
+
+
+
+}
+
+#talk1{
+position: absolute;
+top: 150px;
+left: 50%;
+margin-left:-600px;
+height:300px;
+width:300px;
+border-radius:8px;
+background-color: rgba(200,200,200,0.6);
+transition: top .8s ease-out,left .8s ease-out,width .4s ease-out,height .4s ease-out,margin-left 0.3s ease-out,background 0.3s ease-out;
+overflow: scroll;
+}
+
+#talk2{
+
+position: absolute;
+top: 150px;
+left: 50%;
+margin-left:-150px;
+height:300px;
+width:300px;
+
+border-radius:8px;
+background-color: rgba(200,200,200,0.6);
+transition: top .8s ease-out,left .8s ease-out,width .4s ease-out,height .4s ease-out,margin-left 0.3s ease-out,background 0.3s ease-out;
+
+overflow: scroll;
+}
+
+#talk3{
+
+position: absolute;
+top: 150px;
+left: 50%;
+margin-left:300px;
+height:300px;
+width:300px;
+
+border-radius:8px;
+background-color: rgba(200,200,200,0.6);
+
+transition: top .8s ease-out,left .4s ease-out,width .4s ease-out,height .4s ease-out,margin-left 0.3s ease-out,background 0.4s ease-out;
+
+}
+
+
+#talk1:hover,#talk2:hover,#talk3:hover{
+
+	top:120px;
+	left:50%;
+	margin-left:-40%;
+	width: 80%;
+	height:70%;
+z-index: 10;
+background: linear-gradient(to top,#182848,#4b6cb7);
+
+}
+
+
+
+#talk2_front{
+
+text-align:center;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+color:#000;
+font-size: 25px;
+margin:40px 20px 0px  20px;
+transition: margin 0.3s ease-out;
+
+}
+
+
+
+#talk1_front{
+
+text-align:center;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+color:#000;
+font-size: 25px;
+margin:40px 20px 0px  20px;
+transition: margin 0.3s ease-out;
+
+}
+
+
+#talk3_front{
+
+text-align:center;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+color:#000;
+font-size: 25px;
+margin:40px 20px 0px  20px;
+transition: margin 0.3s ease-out;
+
+}
+
+#talk1:hover #talk1_front{
+
+	margin:20px 0 0 0 ;
+}
+
+
+#talk2:hover #talk2_front{
+
+	margin:20px 0 0 0 ;
+}
+
+#talk3:hover #talk3_front{
+
+	margin:20px 0 0 0 ;
+}
+
+
+#talk1_content{
+	opacity: 0;
+	display: block;
+
+text-align:center;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+color:#fff;
+font-size: 20px;
+margin:30px 20px 0px  20px;
+
+-webkit-transition:opacity .2s ease-out 0.4s;
+
+transition:opacity .2s ease-out 0.4s;
+
+
+}
+
+#talk1:hover #talk1_content{
+
+opacity: 0.9;
+
+}
+
+#talk2:hover #talk2_content{
+
+opacity: 0.6;
+
+}
+
+#talk3:hover #talk3_content{
+
+opacity: 0.6;
+
+}
+
+#talk2_content{
+opacity: 0;
+	display: block;
+
+text-align:center;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+color:#fff;
+font-size: 20px;
+margin:0px 20px 0px  20px;
+
+-webkit-transition:opacity .2s ease-out 0.4s;
+
+transition:opacity .2s ease-out 0.4s;
+overflow: scroll;
+
+
+}
+
+#talk3_content{
+opacity: 0;
+	display: block;
+
+text-align:center;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+color:#fff;
+font-size: 20px;
+margin:0px 20px 0px  20px;
+
+-webkit-transition:opacity .2s ease-out 0.4s;
+
+transition:opacity .2s ease-out 0.4s;
+overflow: scroll;
+
+
+}
+
+
+
+
+#talk1_img{
+
+position: absolute;
+height:150px;
+width:150px;
+right:40px;
+bottom:30px;
+
+
+}
+
+
+#talk1_img_front{
+
+position: absolute;
+height:150px;
+width:150px;
+left:50%;
+top:120px;
+margin-left: -75px;
+}
+
+
+#talk3_img_front{
+
+position: absolute;
+height:150px;
+width:150px;
+left:50%;
+top:120px;
+margin-left: -75px;
+}
+
+#talk3:hover #talk3_front #talk3_img_front{
+opacity: 0;
+
+}
+
+#talk2:hover #talk2_front #talk2_img_front{
+opacity: 0;
+
+}
+
+
+#talk3_img{
+
+position: absolute;
+height:150px;
+width:150px;
+right:40px;
+bottom:30px;
+
+
+}

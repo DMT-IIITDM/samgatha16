@@ -1,0 +1,67 @@
+#content{
+position:absolute;
+top:130px;
+left:50%;
+width:1250px;
+margin-left:-625px;
+bottom:55px;
+box-shadow:0 0 15px 4px #111111;
+color:#fff;}
+
+.content_bg{
+border-radius:8px;
+position:absolute;
+background:rgba(205,205,205,0.1);
+width:100%;
+height:100%;
+top:0px;
+left:0px;
+}
+
+#samg_logo{
+
+position:absolute;
+top:-30px;
+left:-30px;
+border-radius:5px;
+box-shadow:0 0 15px 2px #111111;
+height:200px;
+width:320px;
+background:radial-gradient(ellipse at bottom,#66ff99,#000066);
+background-position: bottom; 
+overflow:hidden;
+}
+#samg_img{
+height:150px;
+width:290px;
+margin-top:25px;
+margin-left:5px;
+}
+
+
+
+#container_t{
+background:transparent;
+position:absolute;
+top:40px;
+left:45%;
+width:900px;
+margin-left:-250px;
+bottom:20px;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+font-size:17px;
+color:#fff;
+overflow: scroll;
+
+}
+
+
+#title{
+
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+font-size:27px;
+color:#fff;
+text-align:center;
+margin-top: 10px;
+
+}

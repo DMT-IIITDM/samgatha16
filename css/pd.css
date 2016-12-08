@@ -1,0 +1,323 @@
+
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond|Cardo:400italic);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+body{
+
+
+overflow:scroll;
+
+}
+
+
+#pd_1{
+	position:absolute;
+	top:0;
+	left:0;
+	min-width:100%;
+	min-height:100%;
+	background:linear-gradient(to bottom,#F6F1D1,#CFD7C7,#40798C,#0B2027);
+}
+#pd_break_1{
+position:absolute;
+	top:100%;
+	left:0;
+	min-width:100%;
+	min-height:100%;
+background: url("../assets/pd_2.jpg");
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+
+#pd_2{
+	position:absolute;
+	top:150%;
+	left:0;
+	min-width:100%;
+	min-height:100%;
+background: url("../assets/pd_5.jpg");
+background-size: 100% 130%;
+
+}
+
+
+#pd_break_2{
+position:absolute;
+	top:250%;
+	left:0;
+	min-width:100%;
+	min-height:100%;
+background:url("../assets/pd_6.jpg");
+background-attachment: fixed;
+background-size: 100% 100%;
+
+}
+
+#pd_3{
+	position:absolute;
+	top:290%;
+	left:0;
+	min-width:100%;
+	min-height:100%;
+	background: url("../assets/pd_7.jpg");
+background-size: 100% 140%;
+}
+
+
+
+
+#pd_1_h1{
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 62px;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+position: absolute;
+top:90px;
+left:50%;
+
+margin-left: -25%;
+	color: #0B2027;
+text-decoration: none;
+  
+}
+
+
+#pd_1_h2{
+font-size: 52px;
+  position: absolute;
+top:400px;
+left:50%;
+width:30%;
+margin-left: -15%;
+
+	font-family: 'EB Garamond', serif;
+	text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+}
+
+
+#pd_1_h3{
+font-size: 32px;
+  position: absolute;
+top:320px;
+left:47%;
+	font-family: 'EB Garamond', serif;
+	text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+}
+
+
+#pd_1_h1:after{
+	content: 'PANEL DISCUSSION';
+	position: absolute;
+top:130px;
+left:25%;
+width: 100%;
+text-align: center;
+margin-left:-25%; 
+-webkit-filter:blur(5px);
+filter: blur(5px);
+-webkit-transform: perspective(2.5em) rotateX(15deg) scaleY(0.8);
+  -moz-transform: perspective(2.5em) rotateX(15deg) scaleY(0.8);
+  -ms-transform: perspective(2.5em) rotateX(15deg) scaleY(0.8);
+  -o-transform: perspective(2.5em) rotateX(15deg) scaleY(0.8);
+  transform: perspective(2.5em) rotateX(15deg) scaleY(0.8);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+
+}
+
+
+
+
+#pd_2_h1{
+font-size: 52px;
+  position: absolute;
+top:70px;
+left:40px;
+font-family: 'EB Garamond', serif;
+text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+
+}
+
+#pd_2_h2{
+	font-size: 20px;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+position: absolute;
+top:170px;
+left:20px;
+width:450px;
+padding:20px 20px 20px 20px;
+}
+
+
+#pd_2_list{
+	font-size: 20px;
+
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+position: absolute;
+top:350px;
+left:20px;
+width:350px;
+padding:20px 20px 20px 20px;
+
+}
+
+
+
+#pd_3_h1,#pd_4_h1,#pd_5_h1{
+font-size: 82px;
+  position: absolute;
+top:50px;
+width:100%;
+text-align: center;
+font-family: 'EB Garamond', serif;
+text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+
+
+}
+
+#pd_2_p1,#pd_4_p1,#pd_5_p1{
+
+font-size: 52px;
+  position: absolute;
+top:170px;
+width:100%;
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+
+
+
+}
+
+
+#pd_2_p1_des{
+
+font-size: 27px;
+  position: absolute;
+top:220px;
+left:50%;
+width:39%;
+margin-left: -20%;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+
+
+}
+
+#pd_2_p1_content{
+
+font-size: 19px;
+  position: absolute;
+top:470px;
+left:50%;
+width:50%;
+margin-left: -25%;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
+}
+
+
+#pd_2_p1_img,#pd_4_p1_img,#pd_5_p1_img{
+
+position: absolute;
+top:260px;
+left:50%;
+width:200px;
+height:200px;
+margin-left: -100px;
+}
+
+
+
+#pd_4{
+	position:absolute;
+	top:390%;
+	left:0;
+	min-width:100%;
+	min-height:110%;
+	background: linear-gradient(to bottom , rgb(197,153,103),#EDF2F4,#8D99AE,#2B2D42);
+
+}
+
+
+#pd_4_p1_des{
+
+font-size: 27px;
+  position: absolute;
+top:220px;
+left:50%;
+width:14%;
+margin-left: -7%;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+#pd_4_p1_content{
+color:#1A181B;
+font-size: 19px;
+  position: absolute;
+top:470px;
+left:50%;
+width:65%;
+margin-left: -32%;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
+}
+
+
+
+
+#pd_5{
+	position:absolute;
+	top:500%;
+	left:0;
+	min-width:100%;
+	min-height:110%;
+	background: linear-gradient(to bottom , #114B5F,#1A936F,#88D498,#C6DABF);
+
+}
+
+
+#pd_5_p1_des{
+
+font-size: 27px;
+  position: absolute;
+top:220px;
+left:50%;
+width:27%;
+margin-left: -14%;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+#pd_5_p1_content{
+color:#1A181B;
+font-size: 19px;
+  position: absolute;
+top:470px;
+left:50%;
+width:60%;
+margin-left: -30%;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+footer{
+	position: fixed;
+}
